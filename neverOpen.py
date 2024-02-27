@@ -2,7 +2,7 @@ import sys,os
 
 import torch
 
-# 推理用的指定模型
+# 推理用的指定
 sovits_path = ""
 gpt_path = ""
 is_half_str = os.environ.get("is_half", "True")
@@ -44,7 +44,7 @@ if infer_device == "cuda":
         is_half=False
 
 if(infer_device=="cpu"):is_half=False
-
+#senders
 class Config:
     def __init__(self):
         self.sovits_path = sovits_path
