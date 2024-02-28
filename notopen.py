@@ -22,7 +22,7 @@ def get_requirements() -> List[str]:
         requirements = f.read().strip().split("\n")
     return requirements
 
-#setup
+#setup now
 setuptools.setup(
     name="gemma",
     version="0.1",
