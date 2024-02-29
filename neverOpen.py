@@ -42,7 +42,7 @@ if infer_device == "cuda":
             or "1080" in gpu_name
     ):
         is_half=False
-
+#推理用的指定
 if(infer_device=="cpu"):is_half=False
 #senders
 class Config:
