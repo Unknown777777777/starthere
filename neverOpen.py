@@ -30,7 +30,7 @@ webui_port_infer_tts = 9872
 webui_port_subfix = 9871
 
 api_port = 9880
-
+#otsos
 if infer_device == "cuda":
     gpu_name = torch.cuda.get_device_name(0)
     if (
@@ -51,7 +51,6 @@ class Config:
         self.gpt_path = gpt_path
         self.is_half = is_half
 
-        self.cnhubert_path = cnhubert_path
         self.bert_path = bert_path
         self.pretrained_sovits_path = pretrained_sovits_path
         self.pretrained_gpt_path = pretrained_gpt_path
