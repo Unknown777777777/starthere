@@ -27,7 +27,9 @@ else:
 webui_port_main = 9874
 webui_port_uvr5 = 9873
 webui_port_infer_tts = 9872
-webui_port_subfix = 9871
+webui_port_subfix = 9871exp_root = "logs"
+python_exec = sys.executable or "python"
+if torch.cuda.is_available():
 
 api_port = 9880
 #otsos
