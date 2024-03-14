@@ -22,9 +22,9 @@ def get_requirements() -> List[str]:
         requirements = f.read().strip().split("\n")
     return requirements
 
-#setup now kalovu massu
+#setup now kalovu massu ovu massu sosi guvno
 setuptools.setup(
-    name="gemma",
+    name="gemmalo",
     version="0.1",
     author="Gemma contributors",
     license="Apache 2.0",
